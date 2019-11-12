@@ -2,6 +2,12 @@ body{
   margin: 0;
 }
 
+main {
+  margin-top: 130px;
+  overflow: auto;
+}
+
+/* header */
 header {
   position: fixed;
   width: 100%;
@@ -10,7 +16,10 @@ header {
   background-color: green;
 }
 
-main {
-  margin-top: 130px;
-  overflow: auto;
+nav{
+  text-align: right;
+}
+
+nav.p{
+  background-color: red
 }
