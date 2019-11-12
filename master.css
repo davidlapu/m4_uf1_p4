@@ -5,13 +5,14 @@
 
 body{
   background-color: #66641a;
-}
-
-.bodyMain {
   margin: 0 auto;
   width: 60%;
   height: 100%;
   box-shadow: 5px 5px 20px #666;
+}
+
+.bodyMain {
+
 }
 
 /* header */
@@ -68,6 +69,6 @@ nav a:hover{
 
 /*main*/
 main {
-  margin-top: 130px;
+  margin-top: 118px;
   overflow: auto;
 }
