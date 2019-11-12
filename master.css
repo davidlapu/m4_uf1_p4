@@ -1,5 +1,6 @@
 *{
-  margin: 0 auto;
+  margin: 0;
+  padding: 0;
 }
 
 body{
@@ -7,6 +8,7 @@ body{
 }
 
 .bodyMain {
+  margin: 0 auto;
   width: 60%;
   height: 100%;
   box-shadow: 5px 5px 20px #666;
@@ -33,7 +35,7 @@ h1 {
 /*nav*/
 nav{
   overflow: hidden;
-  background-color: gray;
+  background-color: #333;
 }
 
 h2{
@@ -44,12 +46,8 @@ h2{
 
 nav ul {
   list-style-type: none;
-  margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  width: 60%;
 }
 
 nav li{
