@@ -20,7 +20,7 @@ header {
   width: inherit;
   top: 0;
   overflow: hidden;
-  background-color: green;
+  background-color: blue;
 }
 
 h1 {
@@ -63,8 +63,7 @@ li a {
 }
 
 nav a:hover{
-  background: #999999;
-  color:red;
+  background: #111;
 }
 
 /*main*/
