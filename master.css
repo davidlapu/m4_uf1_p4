@@ -1,5 +1,42 @@
-/*
-header {
-  position: fixed;
+*{
+  margin: 0 auto;
 }
-*/
+body{
+  background-color: red;
+}
+.bodyMain {
+  width: 60%;
+  height: 100%;
+  box-shadow: 5px 5px 20px #666;
+}
+nav {
+       padding: 1%;
+       font-family: 'Roboto', sans-serif;
+       list-style:none;
+       font-weight: bold;
+       }
+
+nav ul{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: inherit;
+
+       }
+nav li{
+       display: inline;
+       padding: 1%;
+       color: red;
+       }
+nav li:hover{
+  background-color: #999999;
+  color:red;
+}
+nav a{
+      color: white;
+      padding: 1%;
+      text-decoration: none;
+}
+nav a:hover{
+  color:red;
+}
