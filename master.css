@@ -1,35 +1,44 @@
-body{
-  margin: 0;
-}
 
 *{
   margin: 0 auto;
 }
-
-main {
-  margin-top: 130px;
-  overflow: auto;
+body{
+  background-color: #66641a;
 }
-
-/* header */
-header {
-  position: fixed;
-  width: 100%;
-  top: 0;
-  overflow: hidden;
-  background-color: green;
+.bodyMain {
+  width: 60%;
+  height: 100%;
+  box-shadow: 5px 5px 20px #666;
 }
+nav {
+       padding: 1%;
+       font-family: 'Roboto', sans-serif;
+       list-style:none;
+       font-weight: bold;
+       }
 
-nav{
-  padding: 2px;
-  text-align: right;
-  background-color: gray;
+nav ul{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: inherit;
+
+       }
+nav li{
+       display: inline;
+       padding: 1%;
+       color: red;
+       }
+nav li:hover{
+  background-color: #999999;
+  color:red;
 }
-
 nav a{
-  text-align: center;
-  text-decoration: none;
+      color: white;
+      padding: 1%;
+      text-decoration: none;
 }
 nav a:hover{
-  background: #ddd
+  color:red;
+
 }
