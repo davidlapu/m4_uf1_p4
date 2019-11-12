@@ -21,31 +21,39 @@ header {
   background-color: green;
 }
 
-
-
-/*nav*/
-nav{
-  box-sizing: border-box;
-  overflow: hidden;
-  background-color: gray;
-}
-
-nav h2{
+h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
 }
 
-ul {
+#title{
+  padding: 1em;
+}
+
+/*nav*/
+nav{
+  overflow: hidden;
+  background-color: gray;
+}
+
+h2{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
   position: fixed;
+  width: 60%;
 }
 
 nav li{
-  float: left;
+  float: right;
 }
 
 li a {
