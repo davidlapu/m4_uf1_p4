@@ -68,3 +68,8 @@ main {
   margin-top: 300px;
   overflow: auto;
 }
+
+/*somos*/
+div.somosContenido{
+  width: 50%;
+}
