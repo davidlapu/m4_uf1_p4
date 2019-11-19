@@ -69,6 +69,7 @@ main {
   overflow: auto;
 }
 section {
+  width: 100%;
   position: relative;
   content: "";
   display: table;
