@@ -72,14 +72,9 @@ section {
   position: relative;
 }
 
-/*somos*/
-div.somosContenido{
+.columna {
   width: 50%;
+  float: left;
 }
 
-div.somosVideo {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 50%;
-}
+/*somos*/
