@@ -68,6 +68,9 @@ main {
   margin-top: 300px;
   overflow: auto;
 }
+section {
+  position: relative;
+}
 
 /*somos*/
 div.somosContenido{
@@ -75,5 +78,8 @@ div.somosContenido{
 }
 
 div.somosVideo {
-  width: 50%
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
 }
