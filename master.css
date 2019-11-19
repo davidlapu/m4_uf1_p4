@@ -70,6 +70,9 @@ main {
 }
 section {
   position: relative;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .columna {
