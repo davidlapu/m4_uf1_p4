@@ -123,6 +123,11 @@ main {
   margin-top: 300px;
   overflow: auto;
 }
+
+main * {
+	box-sizing: border-box;
+}
+
 section {
   width: 100%;
   height: 40%;
@@ -131,6 +136,10 @@ section {
   display: table;
   clear: both;
   margin-bottom: 20px;
+}
+
+section div {
+	padding: 1em;
 }
 
 .columna {
