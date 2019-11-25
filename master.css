@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+
 }
 
 body{
@@ -144,7 +145,7 @@ section div {
 
 .columna {
   width: 50%;
-  float: left
+  float: left;
 }
 
 h3 {
