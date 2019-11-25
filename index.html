@@ -4,24 +4,39 @@
     <meta charset="utf-8">
     <title>MyWater</title>
     <link rel="stylesheet" href="master.css">
+<script src="http://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous">
+</script>
+<!-- Creamos nuestra función -->
+<script type="text/javascript">
+	$( document ).ready(function() {
+		$('#menu_on').click(function(){ // Al hacer click...
+		   $('body').toggleClass('visible_menu'); // Añadimos o eliminamos la clase 'visible_menu' al body
+		 })
+	});
+</script>
   </head>
   <body>
+      <a href="#" id="menu_on">
+        <span></span>
+        <span></span>
+        <span></span>
+    </a>
+    <nav>
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Servicios</a></li>
+		<li><a href="#">Blog</a></li>
+		<li><a href="#">Contacto</a></li>
+	</ul>
+</nav>
     <header>
       <div id="title">
         <img src="img/logotipo.png">
       </div>
-      <nav>
-        <h2>
-          <ul>
-            <li><a href="#estamos">¿Donde estamos?</a></li>
-            <li><a href="#hacemos">¿Que hacemos?</a></li>
-            <li><a href="#somos">¿Quienes somos?</a></li>
-          </ul>
-        </h2>
-      </nav>
     </header>
     <main>
-      <section id="somos">
+      <section id="somos" class="somos">
         <h3>¿Quines somos?</h3>
         <div class="columna">
           <p>
@@ -76,7 +91,6 @@
       </section>
     </main>
     <footer>
-
     </footer>
   </body>
 </html>
