@@ -74,6 +74,7 @@ section {
   content: "";
   display: table;
   clear: both;
+  margin-bottom: 20px;
 }
 
 .columna {
