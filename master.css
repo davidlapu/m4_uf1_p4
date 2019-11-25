@@ -100,6 +100,10 @@ nav{
 	opacity: 1;
 }
 
+.visible_menu body{
+      transform: translateX(260px);
+}
+
 nav a{
 	display:block;
 	text-decoration: none;
