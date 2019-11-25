@@ -120,9 +120,11 @@ nav a:hover{
 /*main*/
 .flex {
 	display: flex;
+	padding: 0px;
 }
 
 main {
+  margin:16px 0px;
   overflow: auto;
 }
 
@@ -132,11 +134,10 @@ main * {
 
 section {
   width: 100%;
-  margin-bottom: 20px;
 }
 
 section div {
-	padding: 1em;
+	padding: 16px;
 }
 
 .columna {
