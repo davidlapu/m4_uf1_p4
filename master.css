@@ -4,9 +4,9 @@
 }
 
 body{
-  background-color: #66641a;
+  background-color: #9EC8FF;
   margin: 0 auto;
-  width: 60%;
+  width: 80%;
   height: 100%;
   box-shadow: 5px 5px 20px #666;
 }
@@ -74,6 +74,7 @@ section {
   content: "";
   display: table;
   clear: both;
+  margin-bottom: 20px;
 }
 
 .columna {
