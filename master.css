@@ -14,9 +14,7 @@ body{
 
 /* header */
 header {
-  position: fixed;
   width: inherit;
-  top: 0;
   overflow: hidden;
   background-color: green;
 }
