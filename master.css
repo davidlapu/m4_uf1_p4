@@ -82,3 +82,10 @@ section {
 }
 
 /*somos*/
+
+/*hacemos*/
+
+.tercio {
+  width: 33.33%;
+  float: left;
+}
