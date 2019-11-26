@@ -6,17 +6,21 @@
 
 body{
   background-color: #9EC8FF;
-  margin: 0 auto;
+  display: flex;
+}
+
+#bodymain {
   width: 1195px;
+  margin: 0 auto;
   height: 100%;
   box-shadow: 5px 5px 20px #666;
 }
 
 /* header */
 header {
-  width: inherit;
+  height: 100%;
+  width: 500px;
   overflow: hidden;
-  background-color: green;
 }
 
 h1 {
@@ -29,78 +33,11 @@ h1 {
 }
 
 /*nav*/
-nav{
-  overflow: hidden;
-  background-color: #333;
-}
 
 h2{
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 18px;
-}
-
-#menu_on{
-	display: inline-block;
-	width:30px;
-	height: 20px;
-	position: relative;
-	z-index: 2;
-}
-
-#menu_on span{
-	width: 100%;
-	height: 4px;
-	border-radius: 4px;
-	display: block;
-	position: absolute;
-	background: #fff;
-	transition: all 0.25s ease; /* Propiedades a animar | Tiempo | Tipo animación*/
-	transform-origin : 0px 100%;
-}
-
-#menu_on span:nth-child(2){
-	top: calc(50% - 2px);
-}
-
-#menu_on span:nth-child(3){
-bottom: 0;
-}
-
-nav{
-	position: fixed;
-	top: 0;
-	bottom: 0;
-	left:-300px; /* Escondemos nuestro menú con un valor negativo */
-	width: 300px;
-	z-index: 1;
-	padding: 90px 30px 30px;
-	background: #68C5DB;
-	opacity: 0;
-	transition: all 0.75s ease;
-	font-size: 1.2em;
-	overflow-y: auto;
-}
-
-.visible_menu span:nth-child(1){
-	transform: rotate(45deg) translate(-2px,1px);
-}
-
-.visible_menu span:nth-child(2){
-	opacity: 0;
-}
-
-.visible_menu span:nth-child(3){
-	transform: rotate(-45deg) translate(-3px,3px);
-}
-
-.visible_menu nav{
-	left: 0;
-	opacity: 1;
-}
-
-.visible_menu body{
-      transform: translateX(260px);
 }
 
 nav a{
