@@ -154,3 +154,12 @@ h3 {
 .tercio {
   width: 33.33%;
 }
+
+/*estamos*/
+
+#estamos iframe {
+  border:0;
+  allowfullscreen="";
+  width: 800px;
+  height: auto;
+}
