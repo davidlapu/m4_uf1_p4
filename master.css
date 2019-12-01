@@ -124,7 +124,7 @@ nav a:hover{
 }
 
 main {
-  margin:16px 0px;
+  /* margin:16px 0px; */
   overflow: auto;
 }
 
@@ -148,7 +148,7 @@ main * {
 }
 
 .apartados{
-	background-color: #7DFF9F;
+	
 }
 
 .burger{
@@ -208,9 +208,9 @@ section div {
   width: 50%;
 }
 
-form{
+/* form{
 	margin-top: 90px;
-}
+} */
 
 /*somos*/
 
