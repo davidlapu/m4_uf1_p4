@@ -214,8 +214,8 @@ section div {
 /*estamos*/
 
 #estamos iframe {
-  border:0;
-  /* allow="fullscreen"; Esto da error david, consultar siguiente url: https://developer.mozilla.org/es/docs/Web/HTML/Elemento/iframe*/
-  width: 800px;
-  height: auto;
-}
+	border:0;
+	/* allow="fullscreen"; Esto da error david, consultar siguiente url: https://developer.mozilla.org/es/docs/Web/HTML/Elemento/iframe*/
+	width: 800px;
+	height: 400px;
+  }
