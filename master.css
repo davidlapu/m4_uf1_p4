@@ -254,14 +254,18 @@ footer a {
 }
 
 footer button {
-	margin: 1em;
-	margin-left: 490px;
+	margin: auto;
+	margin-left: 100px;
 	padding: 8px;
 	background-color: #555555;
 	font-size: x-large;
 	text-align: center;
 	border: none;
 	text-align: center;
+}
+
+#musica {
+	margin-left: 1em;
 }
 
 footer button:hover {
