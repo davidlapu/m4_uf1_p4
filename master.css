@@ -16,6 +16,7 @@ header {
   width: inherit;
   overflow: hidden;
   background-color: #7DFF9F;
+  box-shadow: 5px 5px 20px #666;
 }
 
 h1 {
@@ -148,15 +149,15 @@ main * {
 	width: 100%;
 }
 
-.apartados:hover {
-	background-color: #7DFF9F;
+.apartados{
+	background-color: rgb(101, 221, 133);
+	box-shadow: 5px 5px 20px #666;
   }
 
 .burger{
 	float: left;
 	margin-bottom: 8px;
 	margin-left: 8px;
-	
 }
 
 .burger ul{
@@ -188,7 +189,6 @@ main * {
 
 #somos{
   width: 100%;
-  /* margin-top: 60px; */
   margin-bottom: 100px;
 }
 
@@ -242,7 +242,11 @@ section div {
 footer {
 	height: 100px;
 	background-color: #7DFF9F;
+	box-shadow: 5px 5px 20px #666;
+	
 }
+
+
 
 footer a {
 	text-decoration: none;
@@ -251,11 +255,13 @@ footer a {
 
 footer button {
 	margin: 1em;
+	margin-left: 490px;
 	padding: 8px;
 	background-color: #555555;
 	font-size: x-large;
 	text-align: center;
 	border: none;
+	text-align: center;
 }
 
 footer button:hover {
