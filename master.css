@@ -147,16 +147,15 @@ main * {
 	width: 100%;
 }
 
-.apartados{
-	
-}
-
 .apartados:hover {
 	background-color: #7DFF9F;
   }
 
 .burger{
 	float: left;
+	margin-bottom: 8px;
+	margin-left: 8px;
+	
 }
 
 .burger ul{
