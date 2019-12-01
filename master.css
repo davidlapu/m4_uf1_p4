@@ -255,4 +255,9 @@ footer button {
 	background-color: #555555;
 	font-size: x-large;
 	text-align: center;
+	border: none;
+}
+
+footer button:hover {
+	background-color: #333;
 }
