@@ -151,6 +151,10 @@ main * {
 	
 }
 
+.apartados:hover {
+	background-color: #7DFF9F;
+  }
+
 .burger{
 	float: left;
 }
