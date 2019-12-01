@@ -176,8 +176,22 @@ main * {
 	margin: 20px;
 }
 
-section {
+#somos{
   width: 100%;
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+#hacemos{
+	width: 100%;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+#estamos{
+	width: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 section div {
