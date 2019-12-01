@@ -71,7 +71,7 @@ nav{
 	top: 0;
 	bottom: 0;
 	left:-300px; /* Escondemos nuestro menú con un valor negativo */
-	width: 300px;
+	width: 293px;
 	z-index: 1;
 	padding: 90px 30px 30px;
 	background: #68C5DB;
@@ -125,7 +125,7 @@ nav a:hover{
 }
 
 main {
-  margin:16px 0px;
+  /* margin:16px 0px; */
   overflow: auto;
 }
 
@@ -148,12 +148,15 @@ main * {
 	width: 100%;
 }
 
-.apartados{
+.apartados:hover {
 	background-color: #7DFF9F;
-}
+  }
 
 .burger{
 	float: left;
+	margin-bottom: 8px;
+	margin-left: 8px;
+	
 }
 
 .burger ul{
@@ -209,9 +212,9 @@ section div {
   width: 50%;
 }
 
-form{
+/* form{
 	margin-top: 90px;
-}
+} */
 
 /*somos*/
 
