@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>MyWater</title>
+    <link rel="stylesheet" href="master.css">
+<script src="http://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous">
+</script>
+<!-- Creamos nuestra función -->
+<script type="text/javascript">
+	$( document ).ready(function() {
+		$('#menu_on').click(function(){ // Al hacer click...
+		   $('body').toggleClass('visible_menu'); // Añadimos o eliminamos la clase 'visible_menu' al body
+		 })
+	});
+</script>
+  </head>
+  <body>
+    <div class="cuerpocentral">
+      <div class="cabecera">
+            <div class="burger">
+                <table>
+                    <ul>
+                <li><a href="#" id="menu_on">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a></li>
+              </ul>
+            </table>
+            </div>
+            <div class="idiomas">
+              <table>
+                <ul>
+                    <li><a href="#"><img src="img/spanishflag.png" alt="1" class="banderas"></a></li>
+                    <li><a href="#"><img src="img/catalanflag.png" alt="1" class="banderas"></a></li>
+                    <li><a href="#"><img src="img/ukflag.png" alt="1" class="banderas"></a></li>
+                  </ul>
+                </table>
+              </div>
+            </div>
+    <nav>
+	<ul>
+    
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Servicios</a></li>
+		<li><a href="#">Blog</a></li>
+		<li><a href="#">Contacto</a></li>
+	</ul>
+</nav>
+    <header>
+      <div id="title">
+        <img src="img/logotipo.png">
+      </div>
+    </header>    
+    <main>
+      <section id="somos">
+        <div class="flex">
+          <div class="columna">
+            <p>
+                <h3>¿Quienes somos?</h3><br><br>
+              Somos una empresa comprometida en la venta indiscriminada de productos de primera necesidad.
+              Vendemos agua embotellada de distintos tamaños. Sin plásticos reciclados ni tonterías, hay que consumir para levantar la economía. Y si no te gusta, ponte a quemar contenedores.
+            </p>
+            <p>
+              Somos una empresa reciente, creada en 2018 para combatir la corrupción en la industria del embotellamiento
+            </p>
+          </div>
+          <div class="columna">
+            <iframe frameborder="no" width="560" height="315" src="https://wideo.co/embed/27432581574695288544?width=560&height=315&repeat=false&autoplay=false&html5=true"></iframe>          </div>
+        </div>
+      </section>
+      <section id="hacemos">
+        <div class="flex">
+          <div class="tercio">
+              <h3>¿Que hacemos?</h3><br><br>
+            <h4>Embotellar</h4>
+            <p>
+              Embotellar agua, asi de simple, ponemos agua del grifo en botellas
+              de plastico no reciclado. Puedes beber agua del grifo, o comprarla de MyWater y
+              levantar la economia de ESPAÑA, tu mismo con tu conciencia
+            </p>
+            <img src="img/embotellar.jpg" alt="embotellar">
+          </div>
+          <div class="tercio"><br><br><br>
+            <h4>Transportar</h4>
+            <p>
+              Agua, que otra cosa vamos a trasportar. Usamos distintos vehículos
+              de los trabajadores, no se los vamos a dar nosotros. haber estudiado
+              si querian mejores condiciones.
+
+              <audio autoplay src="musiquitawena/comounaola.mp3"></audio>
+            </p>
+          </div>
+          <div class="tercio"><br><br><br>
+            <img src="img/logotipo.png">
+          </div>
+        </div>
+      </section>
+      <section id="estamos">
+        <div class="flex">
+          <div class="columna"><br><br><br>
+              <h3>¿Donde estamos?</h3><br><br><br>
+            <p>
+              Estamos ubicados : Carlos III, 124, ent 1, 08017 Barcelona<br>
+              Email: MyWater@gmail.com<br>
+              Telefono: 656848484<br>
+            </p>
+          </div>
+          <div class="columna"><br><br><br>
+            <img src="img/logotipo.png">
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+        <audio controls autoplay>
+            <source autoplay src="musiquitawena/comounaola.ogg" type="audio/ogg">
+            <source autoplay src="musiquitawena/comounaola.mp3" type="audio/mpeg">
+            <source autoplay src="musiquitawena/comounaola.wav" type="audio/wav">
+        </audio>
+    </footer>
+  </div>
+  </body>
+</html>
