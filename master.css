@@ -237,3 +237,22 @@ section div {
 	width: 800px;
 	height: 400px;
   }
+
+/*footer*/
+footer {
+	height: 100px;
+	background-color: #7DFF9F;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+}
+
+footer button {
+	margin: 1em;
+	padding: 8px;
+	background-color: #555555;
+	font-size: x-large;
+	text-align: center;
+}
