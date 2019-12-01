@@ -145,6 +145,10 @@ main * {
 	width: 100%;
 }
 
+.apartados{
+	background-color: red;
+}
+
 .burger{
 	float: left;
 }
@@ -178,7 +182,7 @@ main * {
 
 #somos{
   width: 100%;
-  margin-top: 60px;
+  /* margin-top: 60px; */
   margin-bottom: 100px;
 }
 
@@ -209,6 +213,12 @@ section div {
 
 .tercio {
   width: 33.33%;
+}
+
+.tercio img{
+	width: 400px;
+	height: 200px;
+
 }
 
 /*estamos*/
