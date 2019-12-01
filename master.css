@@ -118,7 +118,9 @@ nav a:hover{
 /*main*/
 .flex {
 	display: flex;
-	padding: 0px;
+	padding: 0px;	
+	margin-top: 30px;
+	
 }
 
 main {
@@ -146,7 +148,7 @@ main * {
 }
 
 .apartados{
-	background-color: red;
+	background-color: #7DFF9F;
 }
 
 .burger{
@@ -206,6 +208,9 @@ section div {
   width: 50%;
 }
 
+form{
+	margin-top: 90px;
+}
 
 /*somos*/
 
