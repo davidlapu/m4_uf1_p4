@@ -141,26 +141,39 @@ main * {
 	box-sizing: border-box;
 }
 
-/* anuncios bonitos :3, a robar carteras que no hay pasta para comer */
-.barralateralderecha{
-box-shadow: 5px 5px 20px #666;
-width: 354px;
-height: 100%;
-float: right;
-background-color:red;
+.cabecera{
+	width: 100%;
+}
+
+.burger{
+	float: left;
+}
+
+.burger ul{
+	display: flex;
+	justify-content: left;
+}
+.burger li{
+	display: unset;
+	margin-top: 17px;
 }
 
 .idiomas{
-	background-color: white;
+	float: right;
+}
+
+.idiomas ul{
+	display: flex;
+	justify-content: right;
+}
+.idiomas li{
+	display: unset;
+	margin-top: 15px;
 	
 }
 
-
-
-.idiomas li{
-	display: unset;
-	margin: 5px;
-	
+.idiomas a{
+	margin: 20px;
 }
 
 section {
